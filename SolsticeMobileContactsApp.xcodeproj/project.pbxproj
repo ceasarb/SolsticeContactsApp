@@ -8,20 +8,36 @@
 
 /* Begin PBXBuildFile section */
 		0E11A7291E871A0400AEDB24 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E11A7281E871A0400AEDB24 /* AppDelegate.swift */; };
-		0E11A72B1E871A0400AEDB24 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E11A72A1E871A0400AEDB24 /* ViewController.swift */; };
 		0E11A72E1E871A0400AEDB24 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0E11A72C1E871A0400AEDB24 /* Main.storyboard */; };
 		0E11A7301E871A0400AEDB24 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0E11A72F1E871A0400AEDB24 /* Assets.xcassets */; };
 		0E11A7331E871A0400AEDB24 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0E11A7311E871A0400AEDB24 /* LaunchScreen.storyboard */; };
+		0E11A73B1E8724EC00AEDB24 /* ContactListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E11A73A1E8724EC00AEDB24 /* ContactListViewController.swift */; };
+		0E11A7411E88998F00AEDB24 /* ContactCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E11A7401E88998F00AEDB24 /* ContactCell.swift */; };
+		0E11A7431E889CE800AEDB24 /* Contact.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E11A7421E889CE800AEDB24 /* Contact.swift */; };
+		0E11A7451E88C22400AEDB24 /* ContactDetailTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E11A7441E88C22400AEDB24 /* ContactDetailTableViewController.swift */; };
+		0E11A7531E8A174100AEDB24 /* NetworkProcessing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E11A7521E8A174100AEDB24 /* NetworkProcessing.swift */; };
+		0E11A7551E8A196300AEDB24 /* SolsticeAPIError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E11A7541E8A196300AEDB24 /* SolsticeAPIError.swift */; };
+		0E11A7571E8A1EC500AEDB24 /* SolsticeAPIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E11A7561E8A1EC500AEDB24 /* SolsticeAPIClient.swift */; };
+		0E11A7591E8A250500AEDB24 /* PhoneNumber.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E11A7581E8A250500AEDB24 /* PhoneNumber.swift */; };
+		0E11A75B1E8A254100AEDB24 /* Address.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E11A75A1E8A254100AEDB24 /* Address.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		0E11A7251E871A0400AEDB24 /* SolsticeMobileContactsApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SolsticeMobileContactsApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0E11A7281E871A0400AEDB24 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		0E11A72A1E871A0400AEDB24 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		0E11A72D1E871A0400AEDB24 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		0E11A72F1E871A0400AEDB24 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0E11A7321E871A0400AEDB24 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0E11A7341E871A0400AEDB24 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0E11A73A1E8724EC00AEDB24 /* ContactListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContactListViewController.swift; sourceTree = "<group>"; };
+		0E11A7401E88998F00AEDB24 /* ContactCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContactCell.swift; sourceTree = "<group>"; };
+		0E11A7421E889CE800AEDB24 /* Contact.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Contact.swift; sourceTree = "<group>"; };
+		0E11A7441E88C22400AEDB24 /* ContactDetailTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContactDetailTableViewController.swift; sourceTree = "<group>"; };
+		0E11A7521E8A174100AEDB24 /* NetworkProcessing.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkProcessing.swift; sourceTree = "<group>"; };
+		0E11A7541E8A196300AEDB24 /* SolsticeAPIError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SolsticeAPIError.swift; sourceTree = "<group>"; };
+		0E11A7561E8A1EC500AEDB24 /* SolsticeAPIClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SolsticeAPIClient.swift; sourceTree = "<group>"; };
+		0E11A7581E8A250500AEDB24 /* PhoneNumber.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhoneNumber.swift; sourceTree = "<group>"; };
+		0E11A75A1E8A254100AEDB24 /* Address.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Address.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,13 +71,53 @@
 			isa = PBXGroup;
 			children = (
 				0E11A7281E871A0400AEDB24 /* AppDelegate.swift */,
-				0E11A72A1E871A0400AEDB24 /* ViewController.swift */,
-				0E11A72C1E871A0400AEDB24 /* Main.storyboard */,
+				0E11A75C1E8A2A1D00AEDB24 /* Model */,
+				0E11A73F1E87253100AEDB24 /* View */,
+				0E11A73E1E87250800AEDB24 /* Controller */,
+				0E11A75D1E8A942C00AEDB24 /* Networking */,
 				0E11A72F1E871A0400AEDB24 /* Assets.xcassets */,
-				0E11A7311E871A0400AEDB24 /* LaunchScreen.storyboard */,
 				0E11A7341E871A0400AEDB24 /* Info.plist */,
 			);
 			path = SolsticeMobileContactsApp;
+			sourceTree = "<group>";
+		};
+		0E11A73E1E87250800AEDB24 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				0E11A73A1E8724EC00AEDB24 /* ContactListViewController.swift */,
+				0E11A7441E88C22400AEDB24 /* ContactDetailTableViewController.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		0E11A73F1E87253100AEDB24 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				0E11A72C1E871A0400AEDB24 /* Main.storyboard */,
+				0E11A7311E871A0400AEDB24 /* LaunchScreen.storyboard */,
+				0E11A7401E88998F00AEDB24 /* ContactCell.swift */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		0E11A75C1E8A2A1D00AEDB24 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				0E11A7421E889CE800AEDB24 /* Contact.swift */,
+				0E11A7581E8A250500AEDB24 /* PhoneNumber.swift */,
+				0E11A75A1E8A254100AEDB24 /* Address.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		0E11A75D1E8A942C00AEDB24 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				0E11A7521E8A174100AEDB24 /* NetworkProcessing.swift */,
+				0E11A7541E8A196300AEDB24 /* SolsticeAPIError.swift */,
+				0E11A7561E8A1EC500AEDB24 /* SolsticeAPIClient.swift */,
+			);
+			name = Networking;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,8 +193,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0E11A72B1E871A0400AEDB24 /* ViewController.swift in Sources */,
+				0E11A7551E8A196300AEDB24 /* SolsticeAPIError.swift in Sources */,
+				0E11A7571E8A1EC500AEDB24 /* SolsticeAPIClient.swift in Sources */,
+				0E11A7591E8A250500AEDB24 /* PhoneNumber.swift in Sources */,
+				0E11A7411E88998F00AEDB24 /* ContactCell.swift in Sources */,
+				0E11A75B1E8A254100AEDB24 /* Address.swift in Sources */,
 				0E11A7291E871A0400AEDB24 /* AppDelegate.swift in Sources */,
+				0E11A7431E889CE800AEDB24 /* Contact.swift in Sources */,
+				0E11A7451E88C22400AEDB24 /* ContactDetailTableViewController.swift in Sources */,
+				0E11A73B1E8724EC00AEDB24 /* ContactListViewController.swift in Sources */,
+				0E11A7531E8A174100AEDB24 /* NetworkProcessing.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
